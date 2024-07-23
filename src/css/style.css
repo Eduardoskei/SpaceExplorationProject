@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    color: rgb(210, 213, 250);
+    background-image: url("img/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400px;
+}
+
+.btn{
+    padding: 6px 12px;
+    background-color: white;
+    border: none;
+    font-family: inherit;
+}
+
+.und{
+    border-bottom: 4px solid;
+}
+#main-logo{
+    width: 100px;
+}
