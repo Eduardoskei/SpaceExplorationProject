@@ -1,13 +1,14 @@
 body{
-    height: 100vh;
+    margin: 0;
+    background-color: black;
     color: rgb(210, 213, 250);
-    background-image: url("img/background.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     text-align: center;
     font-family: "Orbitron", sans-serif;
     font-weight: 400px;
+}
+
+#title{
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);    
 }
 
 .btn{
@@ -23,3 +24,26 @@ body{
 #main-logo{
     width: 100px;
 }
+
+#hero{
+    background-image: url("img/background.webp");
+    background-size: cover;
+    height: 100vh;
+    padding: 0 0 55px 0;
+}
+
+.img1, .img2{
+    width: 600px;
+    height: 600px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(210, 213, 250);
+}
+
+.center{
+    margin: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
